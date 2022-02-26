@@ -1,0 +1,13 @@
+.nav-bar {
+  background-color: white;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  color: $purple;
+
+  li {
+      margin-right: 30px;
+  }
+}

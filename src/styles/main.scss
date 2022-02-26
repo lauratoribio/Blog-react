@@ -1,0 +1,23 @@
+//estilos centrales, inmports, etc
+@import "../styles/variables";
+@import "../pages/Home/home";
+@import "../components/NavBar/navBar";
+@import "../components/PostCard/postCard";
+@import "../components/Header/header";
+
+@font-face {
+   font-family: "Black Mango ExtraLight";
+   src: url("../fonts/BlackMango-ExtraLight.otf") format("opentype");
+}
+
+@font-face {
+   font-family: "Black Mango Medium";
+   src: url("../fonts/BlackMango-Medium.otf") format("opentype");
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   background-color: $beige;
+   font-family: 'Work Sans', sans-serif;
+}
